@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tema1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment1_activity1">Fragment1 Activity1</string>
+    <string name="fragment1_activity2">Fragment1 Activity2</string>
+    <string name="fragment2_activity2">Fragment2 Activity2</string>
+    <string name="fragment3_activity2">Fragment3 Activity2</string>
+
+    <string name="btn_f1a1">Next activity</string>
+    <string name="btn_f1a2">Add F2A2</string>
+    <string name="btn1_f2a2">Replace with F3A2</string>
+    <string name="btn2_f2a2">Go back to F1A2</string>
+    <string name="btn3_f2a2">Close activity</string>
+</resources>
