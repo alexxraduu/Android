@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light"
+    android:padding="@dimen/default_padding"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Title"
+        android:textSize="@dimen/size_title"/>
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        android:textSize="@dimen/size_author"
+        tools:text="Author"
+        android:layout_marginTop="@dimen/default_space" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/author"
+        android:textSize="@dimen/size_description"
+        tools:text="Description"
+        android:maxLines="3"
+        android:layout_marginTop="@dimen/default_space" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_space"
+        android:background="@color/dark_grey_2"
+        android:text="@string/delete_button"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/description"
+        app:layout_constraintWidth_percent="0.3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

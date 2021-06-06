@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_space">16dp</dimen>
+    <dimen name="default_padding">8dp</dimen>
+
+    <dimen name="size_title">23sp</dimen>
+    <dimen name="size_author">20sp</dimen>
+    <dimen name="size_description">16sp</dimen>
+</resources>
